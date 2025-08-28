@@ -11,3 +11,5 @@ There will be 1 jupyter notebook for each chapter of the book "Automate Boring S
  - Exercises (Code Snippets)
 
 The notebooks are found in the notebooks/ directory each named according to the chapter.
+
+
