@@ -2,12 +2,6 @@
 # (Practice Program) - 2048
 # Windows 10 ONLY
 
-from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
-import time
-import random
-
-
 import time
 import random
 from selenium import webdriver
