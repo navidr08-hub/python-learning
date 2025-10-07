@@ -1,8 +1,8 @@
 # Chapter 14 - Excel Spreadsheets
-# (Practice Program) - Multiplication Table Maker
-# multiplication_table.py - takes a number N from the command line and creates an N×N multiplication table in an Excel spreadsheet
+# (Practice Program) - Insert Blank Rows
+# insert_rows.py - inserts N blank rows after specified row number M
 
-import os
+
 import sys
 import openpyxl
 from openpyxl.utils.exceptions import InvalidFileException
