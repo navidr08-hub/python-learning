@@ -1,5 +1,7 @@
-import sqlite3
+# Chapter 16 - SQLite Databases
+# (Practice Program) - Cat Vaccination Checker
 
+import sqlite3
 
 DB = 'sweigartcats.db'
 
