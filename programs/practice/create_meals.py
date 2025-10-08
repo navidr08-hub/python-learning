@@ -1,7 +1,10 @@
+# Chapter 16 - SQLite Databases
+# (Practice Program) - Meals Ingredients Database
+
 import sqlite3
 import re
 
-meal_re = re.compile(r'(.+):(.+)')
+MEAL_RE = re.compile(r'(.+):(.+)')
 
 DB = 'meals.db'
 
@@ -61,9 +64,8 @@ def main():
         recipe = input("> ")
         if recipe == 'q':
             break
-        if meal_re.search(recipe):
-            # print(meal_re.findall(recipe))
-            meal, ingredients = meal_re.findall(recipe)[0]
+        if MEAL_RE.search(recipe):
+            meal, ingredients = MEAL_RE.findall(recipe)[0]
             ingredients = str(ingredients).split(',')
             create_meals(conn, meal, ingredients)
         elif recipe.replace(' ', '').isalpha():
