@@ -57,7 +57,7 @@ def main():
             tags = "sunny,sunglasses"
         
         response = requests.post(
-            url=os.getenv('NTFY_URL'),
+            url=os.getenv('RAIN_URL'),
             data=message.encode("utf-8"),
             headers={
                 "Title": title,
