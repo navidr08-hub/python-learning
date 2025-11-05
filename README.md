@@ -6,9 +6,12 @@ I’m using this repo to track progress, organize knowledge, and share what I le
 
 There will be 1 jupyter notebook for each chapter of the book "Automate Boring Stuff with Python", each notebook will have:
  - Notes
-  - Each section of notes will only have the things that I forgot or needed to brush up on
+  - Only contains notes I thought was worth taking
  - Practice Questions and Answers
  - Exercises (Code Snippets)
+  - Some are answered with code snippets while most have their respective script in the programs/practice folder
+
+To run any of the programs it is necessary to have at least **python 3.10.12** and to create a virtualenv with the python dependencies required for each program. Then run the program from the virtualenv.
 
 The notebooks are found in the notebooks/ directory each named according to the chapter.
 

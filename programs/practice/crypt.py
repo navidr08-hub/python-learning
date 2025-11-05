@@ -45,7 +45,7 @@ def decrypt_pdf(path: str, password: str):
         
         if result == PasswordType.NOT_DECRYPTED:
             print("Incorrect password on file: " + path)
-            return
+            return False
 
         writer = PdfWriter()
 
@@ -58,6 +58,8 @@ def decrypt_pdf(path: str, password: str):
 
         with open(filepath, "wb") as f:
             writer.write(f)
+
+    return True
 
 
 def decrypt_pdfs(password: str, path: str='.'):

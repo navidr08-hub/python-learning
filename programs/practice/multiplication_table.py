@@ -1,7 +1,7 @@
 # Chapter 14 - Excel Spreadsheets
 # (Practice Program) - Multiplication Table Maker
 # multiplication_table.py - takes a number N from the command line and creates an N×N multiplication table in an Excel spreadsheet
-# WINDOWS 10 ONLY
+# WINDOWS 10 ONLY, with MS Excel
 
 import os
 import sys
