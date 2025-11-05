@@ -1,6 +1,7 @@
 # Chapter 14 - Excel Spreadsheets
 # (Practice Program) - Insert Blank Rows
 # insert_rows.py - inserts N blank rows after specified row number M
+# Windows 10 ONLY, with MS Excel
 
 
 import sys
